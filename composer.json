@@ -9,5 +9,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/viweb/KeyValueFormBundle.git" }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "symfony/symfony": "3.2.*",
+        "burgov/key-value-form-bundle": "dev-countable-container"
+    }
 }
