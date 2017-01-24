@@ -1,0 +1,13 @@
+{
+    "name": "viweb/seo-bundle",
+    "description": "Seo fields for Symfony projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre-Marc David Caron",
+            "email": "pierre-marc@viweb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

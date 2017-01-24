@@ -1,0 +1,3 @@
+viweb_seo_homepage:
+    path:     /
+    defaults: { _controller: ViwebSeoBundle:Default:index }

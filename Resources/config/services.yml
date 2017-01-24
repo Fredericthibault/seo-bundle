@@ -1,0 +1,8 @@
+services:
+    viweb_seo.subscriber:
+            class: Viweb\SeoBundle\EventListener\SeoFieldSubscriber
+            tags:
+                - { name: doctrine.event_subscriber }
+#    viweb_seo.example:
+#        class: Viweb\SeoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
