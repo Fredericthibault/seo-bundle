@@ -17,5 +17,8 @@
         "php": ">=7.0",
         "symfony/symfony": "3.2.*",
         "burgov/key-value-form-bundle": "dev-countable-container"
+    },
+    "autoload": {
+    "psr-4": { "Viweb\\SeoBundle\\": "" }
     }
 }
